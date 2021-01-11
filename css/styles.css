@@ -120,3 +120,11 @@ p {
 .pricing-col {
   padding: 3% 2%;
 }
+
+/* call to action */
+#cta {
+  color: white;
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 13% 5% 15%;
+}
