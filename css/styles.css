@@ -24,6 +24,7 @@ h2 {
   background-color: #ff4c68;
   color: white;
 }
+
 /* nav {
   font-size: 1.3rem;
 
@@ -54,14 +55,18 @@ h2 {
 
 /* Iphone image */
 .iphone-img {
-  width: 60%;
+  width: 50%;
   transform: rotate(25deg);
 }
-
+.ios {
+  padding-left: 70px;
+}
 /* section 2 */
 #Features {
   padding: 7% 15%;
+  background-color: white;
 }
+
 h3 {
   font-family: "Montserrat";
   font-weight: bold;
@@ -127,4 +132,18 @@ p {
   background-color: #ff4c68;
   text-align: center;
   padding: 5% 13% 5% 15%;
+}
+
+/* media query breackpoint for mobile optimization */
+
+@media (max-width:991px) {
+  #title {
+    text-align: center;
+  }
+  .ios {
+    padding-left: 0px;
+  }
+  .iphone-img {
+    transform: rotate(0);
+  }
 }
